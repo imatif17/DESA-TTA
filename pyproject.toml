@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yolo_world"
+version = "0.1.0"
+description = "DESA-TTA: Dynamic EMA and Source Anchoring for Test-Time Adaptation (built on YOLO-World)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "GPL-3.0"}
+authors = [
+    { name = "Atif Belal" },
+    { name = "Lilian Hollard" },
+    { name = "Marco Pedersoli" },
+    { name = "Eric Granger" },
+]
+# Runtime dependencies are listed in requirements/ (mmcv must be installed
+# with a build matching your PyTorch/CUDA version, see README).
+dependencies = []
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2609.01795"
+Code = "https://github.com/imatif17/DESA-TTA"
+
+[tool.setuptools.packages.find]
+include = ["yolo_world*"]

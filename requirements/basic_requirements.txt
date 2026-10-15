@@ -1,0 +1,8 @@
+# Install PyTorch and mmcv first (see README), then:
+#   pip install -r requirements/basic_requirements.txt
+mmdet==3.0.0
+mmengine==0.10.3
+transformers==4.36.2
+opencv-python==4.9.0.80
+numpy<2
+pycocotools

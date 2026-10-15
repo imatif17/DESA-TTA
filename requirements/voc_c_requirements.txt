@@ -1,0 +1,4 @@
+# Only needed to build VOC-C with tools/prepare_voc_c.py
+imagecorruptions==1.1.2
+# imagecorruptions 1.1.2 calls skimage with `multichannel=`, removed in 0.20
+scikit-image<0.20

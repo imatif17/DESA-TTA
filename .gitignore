@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Data, checkpoints and outputs
+data/*
+!data/texts/
+pretrained_models/
+work_dirs/
+*.pth
+*.pkl
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
